@@ -79,7 +79,7 @@ function GlitchOverlay() {
 
 function Hero() {
   const handleConnectWallet = () => {
-    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=DBTcxc1aDyXPFGUa7EwvVoVpU4yqpGEZMGKgvtPpBZw3&fixed=in', '_blank');
+    window.open('https://raydium.io/swap/?inputMint=sol&outputMint=BUAv6q4v5E2Pt5ms15uzxhFF1L6rXsG5i4NmSim9pumptps://raydium.io/swap/?inputCurrency=sol&outputCurrency=DBTcxc1aDyXPFGUa7EwvVoVpU4yqpGEZMGKgvtPpBZw3&fixed=in', '_blank');
   };
 
   return (
@@ -112,7 +112,7 @@ function Hero() {
             Trade on Raydium
           </motion.button>
           <motion.a 
-            href="https://www.coingecko.com/en/coins/dont-buy-this-coin"
+            href="https://www.coingecko.com/en/coins/don-t-buy-this-coin"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
